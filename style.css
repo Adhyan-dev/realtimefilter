@@ -1,0 +1,16 @@
+h1 {
+    font-size: 25px !important;
+}
+#btn1 :hover{
+    background-color: blue;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{ box-shadow : 1px 1px 37px yellow;}
+    to{ box-shadow : 1px 1px 37px darkred;}
+}
+
